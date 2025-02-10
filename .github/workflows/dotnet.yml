@@ -21,7 +21,7 @@ jobs:
     - name: Install Chrome
       run: |
          sudo apt-get update
-         sode apt-get install -y google-chrome-stable
+         sodo apt-get install -y google-chrome-stable
     - name: Install dependencies
       run: dotnet restore SeleniumBasicExercise.sin
     - name: Build
