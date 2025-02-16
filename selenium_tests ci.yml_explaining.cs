@@ -222,7 +222,7 @@ yaml
 Команда	                                        Какво прави?                                  Защо се използва?            Свързано с?
 actions/checkout@v4	                            Клонира код                                   За достъп до проекта	       Следващите стъпки
 actions/setup-dotnet@v4	                        Инсталира .NET	                              За компилиране и тестове     .NET проекти
-sudo apt-get install -y google-chrome-stable	  Инсталира Chrome                              Нужен за Selenium	           WebDriver
+sudo apt-get install -y google-chrome-stable	  Инсталира Chrome                            Нужен за Selenium	           3 WebDriver
 sudo apt-get install -y chromium-chromedriver	  Инсталира WebDriver                           Нужен за Selenium            Chrome
 dotnet restore	                                Инсталира зависимостите	                      За да работи проектът        .csproj файлове
 dotnet build	                                  Компилира кода                                За да се уверим, че работи   .sln файл
